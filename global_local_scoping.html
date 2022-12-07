@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var email='gana@gmail.com'
+        function myfun()
+        {
+            var phone=7896543210
+            document.write(`local_variable:${phone}<br/>`)
+            document.write(`global_variable:${email}<br/>`)
+
+        }
+        myfun()
+        document.write(`<br/>`)
+        function my1()
+        {
+            //document.write(`local_variable:${phone}<br/>`)
+            document.write(`global_variable:${email}<br/>`)
+
+        }
+        my1()
+        document.write(`<br/>`)
+        
+            document.write(`global_variable:${email}<br/>`)
+
+        
+    </script>
+</body>
+</html>

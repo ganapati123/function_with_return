@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function myfun()
+        {
+            //return keyword always read the statements only and final o/p is going to access outside of the function
+            return`This is statement <br/>`
+        }
+       var res1= myfun()
+       document.write(`res1:${res1}`)
+       document.write(`<br/>`)
+      
+       var res2 = {
+                    name:myfun()
+                  }
+       document.write(`res2:${res2.name}`)
+    </script>
+</body>
+</html>
